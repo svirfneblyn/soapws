@@ -43,7 +43,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -53,7 +52,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
-            <!-- tag::xsd[] -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
@@ -72,8 +70,6 @@
                     <clearOutputDir>false</clearOutputDir>
                 </configuration>
             </plugin>
-            <!-- end::xsd[] -->
         </plugins>
     </build>
-
 </project>

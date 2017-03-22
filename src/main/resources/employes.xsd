@@ -16,8 +16,7 @@
         </xs:complexType>
     </xs:element>
     <xs:element name="getAllEmployeeRequest">
-        <xs:complexType>
-        </xs:complexType>
+        <xs:complexType></xs:complexType>
     </xs:element>
     <xs:element name="getAllEmployeeResponse">
         <xs:complexType>

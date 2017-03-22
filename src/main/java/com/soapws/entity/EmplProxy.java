@@ -7,7 +7,7 @@ import java.io.Serializable;
 @Entity
 @Table(name="empl")
 public class EmplProxy implements Serializable {
-
+/*ProxyEntity*/
     private static final long serialVersionUID = -1958497361150454559L;
 
     @Id
