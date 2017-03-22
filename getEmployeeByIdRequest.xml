@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://soapws.com/entity">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ent:getEmployeeByIdRequest>
+         <ent:id>1</ent:id>
+      </ent:getEmployeeByIdRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
