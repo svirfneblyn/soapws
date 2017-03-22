@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ns2:getEmployeeByIdResponse xmlns:ns2="http://soapws.com/entity">
+         <ns2:employee>
+            <ns2:id>1</ns2:id>
+            <ns2:firstName>sadf</ns2:firstName>
+            <ns2:manager>Valentin Yudaskin</ns2:manager>
+            <ns2:department>sadf</ns2:department>
+         </ns2:employee>
+      </ns2:getEmployeeByIdResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

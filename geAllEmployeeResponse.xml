@@ -1,0 +1,37 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ns2:getAllEmployeeResponse xmlns:ns2="http://soapws.com/entity">
+         <ns2:employee>
+            <ns2:id>1</ns2:id>
+            <ns2:firstName>sadf</ns2:firstName>
+            <ns2:manager>Valentin Yudaskin</ns2:manager>
+            <ns2:department>sadf</ns2:department>
+         </ns2:employee>
+         <ns2:employee>
+            <ns2:id>2</ns2:id>
+            <ns2:firstName>qewr</ns2:firstName>
+            <ns2:manager>Valentin Yudaskin</ns2:manager>
+            <ns2:department>qewr</ns2:department>
+         </ns2:employee>
+         <ns2:employee>
+            <ns2:id>3</ns2:id>
+            <ns2:firstName>ggg</ns2:firstName>
+            <ns2:manager>Valentin Yudaskin</ns2:manager>
+            <ns2:department>ggg</ns2:department>
+         </ns2:employee>
+         <ns2:employee>
+            <ns2:id>4</ns2:id>
+            <ns2:firstName>dsf</ns2:firstName>
+            <ns2:manager>Valentin Yudaskin</ns2:manager>
+            <ns2:department>dsf</ns2:department>
+         </ns2:employee>
+         <ns2:employee>
+            <ns2:id>5</ns2:id>
+            <ns2:firstName>sss</ns2:firstName>
+            <ns2:manager>Valentin Yudaskin</ns2:manager>
+            <ns2:department>sss</ns2:department>
+         </ns2:employee>
+      </ns2:getAllEmployeeResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
